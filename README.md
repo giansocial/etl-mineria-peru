@@ -93,12 +93,6 @@ etl-mineria-peru/
 
 ## What it does
 
-ETL pipeline for Peruvian mining production data by metal, region, and period. Data comes from MINEM statistical bulletins and loads into a SQLite star schema warehouse.
-
-Peru is the world's second largest producer of copper, silver, and zinc. This project analyzes monthly production of 8 metals across 15 mining regions, computing year-over-year changes, moving averages, and regional concentration (HHI index).
-
----
-
 ## Fuentes de datos
 
 | Fuente | Descripción | Enlace |
@@ -106,3 +100,36 @@ Peru is the world's second largest producer of copper, silver, and zinc. This pr
 | MINEM - Boletín Estadístico de Minería | Producción mensual por metal y región | [https://www.minem.gob.pe/_estadisticaSector.php?idSector=1&idEstadistica=12501](https://www.minem.gob.pe/_estadisticaSector.php?idSector=1&idEstadistica=12501) |
 | MINEM - Datos abiertos | Portal de datos abiertos del sector minero | [https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544](https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544) |
 | Datos Abiertos Perú | Portal nacional de datos abiertos | [https://www.datosabiertos.gob.pe/](https://www.datosabiertos.gob.pe/) |
+
+## Licencia
+
+MIT
+
+---
+
+# Mining Production ETL - Peru
+
+Did you know Peru is the world's second largest producer of copper, silver, and zinc, and that mining accounts for 60% of its exports? Production is so concentrated that just 3 regions generate over 70% of national copper output, and a drop in Arequipa or Ancash can shift the entire sector's numbers.
+
+I'm Gian Cruz. I built this ETL pipeline to process mining production data published by Peru's MINEM. It analyzes 8 metals across 15 regions, calculates year-over-year and month-over-month variations, computes 6-month moving averages, and measures regional concentration through the Herfindahl-Hirschman Index (HHI).
+
+## Quick start
+
+```bash
+git clone https://github.com/giansocial/etl-mineria-peru.git
+cd etl-mineria-peru
+python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python -m src.pipeline
+```
+
+## Data sources
+
+| Source | Description | Link |
+|--------|-------------|------|
+| MINEM - Mining Statistics Bulletin | Monthly production by metal and region | [https://www.minem.gob.pe/_estadisticaSector.php?idSector=1&idEstadistica=12501](https://www.minem.gob.pe/_estadisticaSector.php?idSector=1&idEstadistica=12501) |
+| MINEM - Open Data | Mining sector open data portal | [https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544](https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544) |
+
+## License
+
+MIT
