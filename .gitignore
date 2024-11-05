@@ -5,8 +5,10 @@ venv/
 .venv/
 .env
 data/raw/*.csv
-data/processed/
-data/warehouse/
+data/processed/*
+!data/processed/.gitkeep
+data/warehouse/*
+!data/warehouse/.gitkeep
 logs/
 *.log
 .pytest_cache/
