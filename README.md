@@ -101,6 +101,16 @@ etl-mineria-peru/
 | MINEM - Datos abiertos | Portal de datos abiertos del sector minero | [https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544](https://www.minem.gob.pe/_estadistica.php?idSector=1&idEstadistica=12544) |
 | Datos Abiertos Perú | Portal nacional de datos abiertos | [https://www.datosabiertos.gob.pe/](https://www.datosabiertos.gob.pe/) |
 
+## Visualizaciones
+
+Resultados del analisis exploratorio (notebook completo en `notebooks/`):
+
+![Produccion mensual de cobre por region](docs/images/grafico_01.png)
+
+![Correlacion entre metales](docs/images/grafico_02.png)
+
+![Indice de concentracion HHI por metal](docs/images/grafico_03.png)
+
 ## Licencia
 
 MIT
