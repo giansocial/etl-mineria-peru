@@ -1,0 +1,67 @@
+metal,region,anio,mes,produccion
+cobre,Ancash,2023,1,42150.5
+cobre,Ancash,2023,2,38920.3
+cobre,Ancash,2023,3,45100.8
+cobre,Ancash,2023,4,41200.0
+cobre,Ancash,2023,5,43800.2
+cobre,Ancash,2023,6,39500.1
+cobre,Arequipa,2023,1,85200.4
+cobre,Arequipa,2023,2,82100.7
+cobre,Arequipa,2023,3,88400.0
+cobre,Arequipa,2023,4,86300.5
+cobre,Arequipa,2023,5,90100.3
+cobre,Arequipa,2023,6,87500.9
+cobre,Apurimac,2023,1,35800.2
+cobre,Apurimac,2023,2,33200.1
+cobre,Apurimac,2023,3,37400.6
+cobre,Apurimac,2023,4,36100.0
+cobre,Apurimac,2023,5,38200.4
+cobre,Apurimac,2023,6,34900.8
+oro,Cajamarca,2023,1,125.4
+oro,Cajamarca,2023,2,118.2
+oro,Cajamarca,2023,3,132.8
+oro,Cajamarca,2023,4,128.5
+oro,Cajamarca,2023,5,135.1
+oro,Cajamarca,2023,6,121.7
+oro,La Libertad,2023,1,210.3
+oro,La Libertad,2023,2,198.7
+oro,La Libertad,2023,3,225.4
+oro,La Libertad,2023,4,215.8
+oro,La Libertad,2023,5,230.2
+oro,La Libertad,2023,6,205.9
+plata,Ancash,2023,1,1850.5
+plata,Ancash,2023,2,1720.3
+plata,Ancash,2023,3,1980.8
+plata,Ancash,2023,4,1870.2
+plata,Ancash,2023,5,2010.6
+plata,Ancash,2023,6,1790.4
+plata,Junin,2023,1,1420.1
+plata,Junin,2023,2,1380.5
+plata,Junin,2023,3,1510.2
+plata,Junin,2023,4,1450.8
+plata,Junin,2023,5,1560.3
+plata,Junin,2023,6,1390.7
+zinc,Pasco,2023,1,52300.4
+zinc,Pasco,2023,2,48900.1
+zinc,Pasco,2023,3,55100.8
+zinc,Pasco,2023,4,51200.3
+zinc,Pasco,2023,5,56800.2
+zinc,Pasco,2023,6,49500.6
+zinc,Lima,2023,1,28400.5
+zinc,Lima,2023,2,26100.3
+zinc,Lima,2023,3,30200.7
+zinc,Lima,2023,4,28800.1
+zinc,Lima,2023,5,31500.4
+zinc,Lima,2023,6,27200.9
+cobre,Ancash,2024,1,44500.2
+cobre,Ancash,2024,2,41200.8
+cobre,Ancash,2024,3,47300.5
+cobre,Arequipa,2024,1,89100.3
+cobre,Arequipa,2024,2,85800.6
+cobre,Arequipa,2024,3,92500.1
+oro,Cajamarca,2024,1,130.2
+oro,Cajamarca,2024,2,122.8
+oro,Cajamarca,2024,3,138.5
+oro,La Libertad,2024,1,218.5
+oro,La Libertad,2024,2,205.3
+oro,La Libertad,2024,3,232.1
