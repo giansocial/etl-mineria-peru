@@ -41,7 +41,7 @@ def test_yoy_first_year_is_null():
     assert first_year["var_interanual_pct"].isna().all()
 
 
-def test_yoy_no_mutation():
+def test_yoy_columnas_originales():
     df = _sample()
     cols_before = list(df.columns)
     add_yoy_variation(df)
